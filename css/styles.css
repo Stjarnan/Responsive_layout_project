@@ -1,3 +1,50 @@
+/* =============================
+
+Base Layout
+
+============================= */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.main-nav li,
+.main-content {
+    background-color: white;
+}
+
 img {
     max-width: 100%;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* =============================
+
+Header
+
+============================= */
+
+.main-header img {
+	max-width: 80%;
+}
+
+.main-nav li {
+	list-style-type: none;
+	margin: 2px;
+	padding: 5px;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
 }
