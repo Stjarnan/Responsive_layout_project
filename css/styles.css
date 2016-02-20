@@ -61,7 +61,9 @@ a:active {
 	font-weight: 700;
 }
 
-
+.footerLinks {
+	display: none;
+}
 
 
 /* =============================
@@ -79,7 +81,8 @@ Header
 	padding: 0;
 }
 
-.main-nav li {
+.main-nav li,
+.footerLinks {
 	list-style-type: none;
 	margin-top: 4px;
 	padding: 10px;
@@ -108,6 +111,78 @@ Footer
 .secondary-footer a {
 	font-size: 16px;
 	}
+
+/* =============================
+
+Clearfix
+
+============================= */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+/* =============================
+
+Media Queries
+
+============================= */
+
+
+
+@media (min-width: 768px) {
+	
+	.profile {
+		float: right;
+		padding-left: 20px;
+	}
+    .main-header p {
+    	text-align: left;
+    }
+
+	.main-nav {
+		padding-bottom: 50px;
+	}
+	
+	.card {
+		max-width: 50%;
+		padding: 0 2% 50px 0;
+	}
+
+	.leftFloat {
+		float: left;
+	}   
+
+	.rightFloat {
+		float: right;
+	}
+
+	.main-nav li, 
+	a  {
+		display: inline;
+		background-color: #F5F5F5;
+		padding-right: 25px;
+	}
+    
+    .backTop {
+    	display: none;
+    }
+
+    .footerLinks,
+    .footerLinks li {
+    	display: inline;
+    	font-weight: 700;
+
+    }
+
+
+}
+
+
+
+
 
 
 
