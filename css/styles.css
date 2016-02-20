@@ -31,6 +31,10 @@ body {
 	font-weight: 400;
 }
 
+.card {
+	padding-bottom: 20px;
+}
+
 img {
     max-width: 100%;
 }
