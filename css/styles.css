@@ -11,6 +11,8 @@ Base Layout
 
 body {
 	background-color: #F5F5F5;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 
 .main-nav li,
@@ -18,15 +20,45 @@ body {
     background-color: white;
 }
 
-img {
-    max-width: 100%;
-}
 
 .container {
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
+	padding: 50px 0;
 }
+.container h3 {
+	font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* =============================
+
+Links
+
+============================= */
+
+a {
+	text-decoration: none;
+	display: block;
+}
+
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: black;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+
 
 /* =============================
 
@@ -38,10 +70,42 @@ Header
 	max-width: 80%;
 }
 
-.main-nav li {
-	list-style-type: none;
+/* The padding here fixes a problem the left padding caused to the layout. */
+.main-nav ul {
+	padding: 0;
 }
 
-a {
-	text-decoration: none;
+.main-nav li {
+	list-style-type: none;
+	margin-top: 4px;
+	padding: 10px;
 }
+
+/* =============================
+
+Footer
+
+============================= */
+
+.secondary-footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: solid 1px #C0C0C0;
+	padding: 15px 0;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.secondary-footer p {
+    font-weight: 700;
+
+}
+
+.secondary-footer a {
+	font-size: 16px;
+	}
+
+
+
+
+
