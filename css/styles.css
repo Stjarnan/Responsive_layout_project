@@ -143,17 +143,22 @@ Media Queries
 		float: right;
 		padding-left: 20px;
 	}
+
+	.container {
+		width: 100%;
+	}
+
     .main-header p {
     	text-align: left;
     }
 
 	.main-nav {
-		padding-bottom: 50px;
+		padding-bottom: 20px;
 	}
 	
 	.card {
 		max-width: 50%;
-		padding-bottom: 50px;
+		padding: 0 2.5% 50px;
 	}
 
 	.leftFloat {
@@ -201,7 +206,7 @@ Media Queries
 
 
 	.container {
-		width: 95%;
+		width: 90%;
 		max-width: 1200px;
 	}
 
@@ -222,7 +227,6 @@ Media Queries
     .card {
     	float: left;
     	width: calc(100% / 3);
-    	padding: 0 2.5% 20px;
     }
 
 }
