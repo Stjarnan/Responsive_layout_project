@@ -70,6 +70,26 @@ a:active {
 	display: none;
 }
 
+a.social {
+  display: inline-block;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+
+a.github {
+  background-image: url(../images/github.svg);
+}
+a.googlePlus {
+  background-image: url(../images/google_plus.svg);
+}
+
+a.social:hover {
+  opacity: 1; }
 
 /* =============================
 
@@ -117,6 +137,13 @@ Footer
 	font-size: 16px;
 	}
 
+.main-footer ul {
+	list-style: none;
+}
+
+.main-footer li {
+	display: inline;
+}
 /* =============================
 
 Clearfix
